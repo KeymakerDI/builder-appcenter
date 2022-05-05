@@ -1,4 +1,4 @@
-FROM node:alpine3.12
+FROM node:16-alpine3.15
 
 RUN npm install -g appcenter-cli \
     && npm install -g react-native-cli \
